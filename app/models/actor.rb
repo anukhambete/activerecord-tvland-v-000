@@ -14,6 +14,7 @@ class Actor < ActiveRecord::Base
       array_1 = "#{c.name} - #{c.show.name}"
       #binding.pry
     end
+    array_1
   end
 
 
